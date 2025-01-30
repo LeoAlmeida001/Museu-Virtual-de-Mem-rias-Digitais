@@ -1,0 +1,22 @@
+/* Tema claro (padrão) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: inherit;
+}
