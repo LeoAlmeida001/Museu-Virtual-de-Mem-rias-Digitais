@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Virtual de Memórias Digitais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Museu Virtual de Memórias Digitais</h1>
+    </header>
+    <main>
+        <section id="memoria-form">
+            <h2>Adicione sua Memória</h2>
+            <input type="text" id="memoria-texto" placeholder="Digite sua lembrança..."><br>
+            <input type="file" id="memoria-imagem" accept="image/*"><br>
+            <button onclick="adicionarMemoria()">Adicionar</button>
+        </section>
+        <section id="memorias">
+            <h2>Suas Memórias</h2>
+            <div id="memoria-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
